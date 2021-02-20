@@ -13,3 +13,17 @@ Verify that the time of the request is not too old or too new (keep your and the
 It also make sure that the full request SHA512 of the client is the same as the server, adding to the hash a shared secret.
 
 If all the checks are successful, it'll run the command. It'll return to the client an error message if it fails, or stdout output if everything went well.
+
+# Golang Server
+
+Build the server with
+
+`./compile.sh`
+
+The Go source is in **PortOpener.go**
+
+# Python Scripts
+
+**Client.py** is the client to do the request.
+
+**CronKeeper.py** is the cronjob script to make sure the firewall keeps allowing the client between IP changes.
