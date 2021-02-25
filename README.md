@@ -20,7 +20,7 @@ Build the server with
 
 `./compile.sh`
 
-The Go source is in **PortOpener.go** and the binary output will be in **./build/PortOpener**.
+The Go source is in **PortOpener.go** and the binary output will be in **./build/PortOpener**
 
 # Python Scripts
 
