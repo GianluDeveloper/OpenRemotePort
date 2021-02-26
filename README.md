@@ -1,4 +1,4 @@
-# Open server remote port
+# Open remote port on server
 
 This software aims to provide a way to keep only http/https and smtp services available from outside, while at the same time allow legit clients to request port opening on the server.
 
